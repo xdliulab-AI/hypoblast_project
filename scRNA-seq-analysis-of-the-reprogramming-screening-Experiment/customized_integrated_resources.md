@@ -116,9 +116,9 @@ This enables mapping of stem cell–derived models into the authentic embryonic 
 | Use case | Recommended resource |
 |----------|----------------------|
 | Study authentic human embryogenesis | **Resource 1** (in vivo atlas only) |
-| Benchmark stem cell–derived hypoblast models | **Resource 2** (scPoli model) |
-| Map new query data into developmental space | **Resource 2** (`model.query_integrate()`) |
 | Differential expression on pure embryonic data | **Resource 1** |
+| Map new query data into developmental space | **Resource 2** (`model.query_integrate()`) |
+
 
 > 💡 **Quick start:** Load the scPoli model with `scpoli.load_model()`, then map your query dataset using `model.query_integrate()`. The model returns developmental positioning and cell type predictions relative to the in vivo reference.
 
